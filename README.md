@@ -97,15 +97,27 @@ We've decided towards dropping the remaining columns for they contained too manu
 - Functions: mostly Pandas built-in functions and methods
 - 
 
+## Conclusion
+Our original hypothesis was that an escalation in oceanic activities, such as surfing and swimming, will correlate with an increase in shark attacks along coastal regions of the USA.
+<br>
+The hypothesis is rejected.
+<br>
+An escalation in oceanic activities, such as surfing and swimming, will correlate with an increase in shark attacks along coastal regions of Australia, and not of the USA.
+
 ### Issues and challenges
 We won't say anything new if we say that this project was very challenging.
 <br>
 It was as challenging as the previous project, and as challenging as the next week's one.
 <br>
+While this bootcamp is an invaluable opportunity to gain the knowledge we expressly came for, the learning-time ratio is inadequate.
+<br>
+Without prior background in programming, to some of us the struggle is real, and it takes its physical and mental toll.
+<br>
+Hopefully, you'll take our broken spirits into consideration while observing for broken codes. <p>&#128148;</p>
 
 ### Acknowledgements
-GSAF Field Investigators
-Don Nacho
-Simi
+- GSAF Field Investigators
+- Don Nacho
+- Simi
 
 ### P.S. : No shark was harmed in creating this analysis.
