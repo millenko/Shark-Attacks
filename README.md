@@ -1,12 +1,12 @@
 ![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
 
-# QUEST | Sharks Attacks
+# QUEST | Maybe there is a shark in the water
 
 <br>
 
 ## Introduction
 
-Welcome to the Shark Attacks!
+Welcome to the "Maybe there is a shark in the water" data analysis project. Dive in, bite into it!
 <br>
 In this project, we will share with you information about global shark attack reports, demonstrate our newly acquired data wrangling and analysis techniques.
 <br>
@@ -107,3 +107,5 @@ It was as challenging as the previous project, and as challenging as the next we
 GSAF Field Investigators
 Don Nacho
 Simi
+
+### P.S. : No shark was harmed in creating this analysis.
