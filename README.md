@@ -89,6 +89,7 @@ We've decided towards dropping the remaining columns for they contained too manu
 
 ### EDA methods
 
+### REGEX
 
 ### Under the hood
 - Data structures used: lists, dictionaries, sets
