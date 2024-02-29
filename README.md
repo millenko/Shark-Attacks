@@ -1,50 +1,74 @@
 ![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
 
 # QUEST | Sharks Attacks
-<details>
-  <summary>
-
-  <summary>
-   <h2>Prerequisites</h2>
-  </summary>
-
-Before this starting this lab, you should have learnt about:
-
-- Data types, operators and structures
-- Flow control (if-else statements and loops)
-- Functions
- 
-  <br>
-  <hr> 
-
-</details>
-
-
-## Introduction
-
-Welcome to the Pandas Lab! In this lab, you will learn how to work with and create pandas series and dataframes. These are powerful tools for data manipulation and analysis in Python and allow you to create, manipulate, and analyze large, complex datasets with ease, making it a valuable library for any data scientist or analyst.
-
-You will also learn how to access their attributes and values, and manipulate them using a variety of built-in methods as well as learn how to filter and sort data and summarize and describe data. By the end of this lab, you will have a strong foundation in working with pandas series and dataframes, which you can apply to real-world data analysis problems.
 
 <br>
 
+## Introduction
+
+Welcome to the Shark Attacks!
+<br>
+In this project, we will share with you information about global shark attack reports, demonstrate our newly acquired data wrangling and analysis techniques.
+<br>
+Then, hopefully, you will share with us some admiration for the job well-done, as well as other, constructive feedback.
+<br>
+
+For a while, our motivation for the project was to get a passing grade, until we remembered that Ironhack is not that kind of school.
+<br>
+After that, our motives became less ulterior and more altruistic, which is to determine what and how much have we learned so far, and to continue the learning.
+<br>
+We hope to be a contributing factor to decrease in the shark-related accidents, for the sake of both humans and sharks.
+
+## Team members
+- Deimante Piraityte
+- Oğuzhan Şahingöz
+- Sophiya Siddiqui
+- Milenko Rosić
+
+## Installation & setup
+- Fork this repo
+- Clone it to your machine
+
+### Required environment
+- Jupyter Notebook
+- Python is 3.11.5 or higher
+- Numpy
+- Pandas
+- Matplotlib
+- RE
+- Pickle
 
 ## About the dataset
+The dataset used in this analysis is [GSAF Incident Log](https://www.sharkattackfile.net/incidentlog.htm).
+<br>
+The mission of the Global Shark Attack File is to provide current and historical data on shark/human interactions for those who seek accurate and meaningful information and verifiable references.
+<br>
+It is the goal of the Global Shark Attack File to demonstrate and emphasize, through forensic analysis, the significance of shark/human interactions in comparison to the myriad dangers that we face in our daily lives.
+<br>
+[The original dataset](https://www.sharkattackfile.net/spreadsheets/GSAF5.xls) is in .xls Excel file format, loaded into a Jupyter Notebook for analysis in Python.
 
-### Context
-The dataset comprises customer data related to their vehicle insurance policies. It provides details about both the customers and the specific insurance coverage they've opted for. This data an be explored to segment similar kinds of customers.
+### Problem statement
+Shark attack reports seem to be increasing over the past years.
 
-### Content
-This dataset provides socio-economic information of customers alongside details of their insured vehicles.  The data contains both categorical and numerical variables. The "Customer Lifetime Value" (CLV) has also been provided, which is derived from historical data. This is essential in understanding the customer purchase behavior.
+### Hypothesis
+An escalation in oceanic activities, such as surfing and swimming, will correlate with an increase in shark attacks along coastal regions of the USA.
+<br>
 
-### Acknowledgements
-UCI ML repository
+### Understanding the data
+We used Pandas built-in functions such as describe, head, info, unique, to familiarize ourselves with the data.
+<br>
+The original dataset consist of 6965 rows over 23 columns.
+<br>
+Though it was a promising number that the dataset is well-fulfilled, the dataset proved to be rather dirty.
+<br>
 
-### Inspiration
-The data is useful for clustering customers according to their behavior, thereby enabling targeted marketing of a new insurance policy. This helps pre-estimating a budget for marketing expenses.
+### Formatting
+We used Pandas built-in functions to format the data, to reach clarity and needs of our analysis.
+<br>
+The dataset was reduced to 1592 rows over 7 columns:
+<br>
 
 ### Data Description
-
 - Customer: Customer ID.
 
 - ST: State where customers live.
@@ -66,69 +90,24 @@ The data is useful for clustering customers according to their behavior, thereby
 - Vehicle Class: Specifies the class of insured vehicles, such as Two-Door Car, Four-Door Car SUV, Luxury SUV, Sports Car, and Luxury Car.
 
 - Total Claim Amount: The sum of all claims made by the customer. It represents the total monetary value of all approved claims for incidents such as accidents, theft, vandalism, or other covered events.
+<br>
 
-## Requirements
-
-- Fork this repo
-- Clone it to your machine
-
-## Getting Started
-
-Complete the challenges in the `Jupyter Notebook` file. Follow the instructions and add your code and explanations as necessary.
-
-## Submission
-
-- Upon completion, run the following commands:
-
-```bash
-git add .
-git commit -m "Solved lab"
-git push origin master
-```
-
-- Paste the link of your lab in Student Portal.
+### Data-quality points
+- The column-names had consistent appearance.
+- The values had inconsistent appearance with regards to leading and trailing whitespace, use of the capital letters and abbreviations.
+  - These have been corrected by stripping the whitespace, and with functions and methods such as : lambda, applymap, title, .replace.
+- "Year" column has been converted to integers, with astype method.
+- "Sex" column values have been reduced from multiple unique values to 2: M and F.
+there are columns which appear almost empty or mostly populated by missing or useless data.
 
 
-## FAQs
-<details>
-  <summary>I am stuck in the exercise and don't know how to solve the problem or where to start.</summary>
-  <br>
+### Under the hood
+- Data structures used: lists, dictionaries, sets
+- Flow control: if-else statements
+- Functions: mostly Pandas built-in functions and methods
+- 
 
-  If you are stuck in your code and don't know how to solve the problem or where to start, you should take a step back and try to form a clear question about the specific issue you are facing. This will help you narrow down the problem and come up with potential solutions.
-
-
-  For example, is it a concept that you don't understand, or are you receiving an error message that you don't know how to fix? It is usually helpful to try to state the problem as clearly as possible, including any error messages you are receiving. This can help you communicate the issue to others and potentially get help from classmates or online resources. 
-
-
-  Once you have a clear understanding of the problem, you will be able to start working toward the solution.
-
-  [Back to top](#faqs)
-
-</details>
-
-
-<details>
-  <summary>I am unable to push changes to the repository. What should I do?</summary>
-  <br>
-
-There are a couple of possible reasons why you may be unable to *push* changes to a Git repository:
-
-1. **You have not committed your changes:** Before you can push your changes to the repository, you need to commit them using the `git commit` command. Make sure you have committed your changes and try pushing again. To do this, run the following terminal commands from the project folder:
-  ```bash
-  git add .
-  git commit -m "Your commit message"
-  git push
-  ```
-2. **You do not have permission to push to the repository:** If you have cloned the repository directly from the main Ironhack repository without making a *Fork* first, you do not have write access to the repository.
-To check which remote repository you have cloned, run the following terminal command from the project folder:
-  ```bash
-  git remote -v
-  ```
-If the link shown is the same as the main Ironhack repository, you will need to fork the repository to your GitHub account first and then clone your fork to your local machine to be able to push the changes.
-
-**Note**: You should make a copy of your local code to avoid losing it in the process.
-
-  [Back to top](#faqs)
-
-</details>
-
+### Acknowledgements
+GSAF Field Investigators
+Don Nacho
+Simi
