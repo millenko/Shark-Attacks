@@ -96,6 +96,12 @@ We've decided towards dropping the remaining columns for they contained too manu
 - Functions: mostly Pandas built-in functions and methods
 - 
 
+### Issues and challenges
+We won't say anything new if we say that this project was very challenging.
+<br>
+It was as challenging as the previous project, and as challenging as the next week's one.
+<br>
+
 ### Acknowledgements
 GSAF Field Investigators
 Don Nacho
