@@ -1,14 +1,14 @@
 ![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
 
-# QUEST | <p>Maybe there's a 🦈 in the water</p>
+# QUEST | Maybe there's a 🦈 in the water
 
 <br>
 
 ## Introduction
 
-Welcome to the "Maybe there is a shark in the water" data analysis project. Dive in, bite into it!
+Welcome to the "Maybe there's a 🦈 in the water" data analysis project. Dive in, bite into it!
 <br>
-In this project, we will share with you information about global shark attack reports, demonstrate our newly acquired data wrangling and analysis techniques.
+In this project, we will share with you information about global 🦈 attack reports, demonstrate our newly acquired data wrangling and analysis techniques.
 <br>
 Then, hopefully, you will share with us some admiration for the job well-done, as well as other, constructive feedback.
 <br>
@@ -17,7 +17,7 @@ For a while, our motivation for the project was to get a passing grade, until we
 <br>
 After that, our motives became less ulterior and more altruistic, which is to determine what and how much have we learned so far, and to continue the learning.
 <br>
-We hope to be a contributing factor to decrease in the shark-related accidents, for the sake of both humans and sharks.
+We hope to be a contributing factor to decrease in the 🦈-related accidents, for the sake of both humans and 🦈.
 
 ## Team members
 - Deimante Piraityte
@@ -41,17 +41,17 @@ We hope to be a contributing factor to decrease in the shark-related accidents, 
 ## About the dataset
 The dataset used in this analysis is [GSAF Incident Log](https://www.sharkattackfile.net/incidentlog.htm).
 <br>
-The mission of the Global Shark Attack File is to provide current and historical data on shark/human interactions for those who seek accurate and meaningful information and verifiable references.
+The mission of the Global Shark Attack File is to provide current and historical data on 🦈/human interactions for those who seek accurate and meaningful information and verifiable references.
 <br>
-It is the goal of the Global Shark Attack File to demonstrate and emphasize, through forensic analysis, the significance of shark/human interactions in comparison to the myriad dangers that we face in our daily lives.
+It is the goal of the Global Shark Attack File to demonstrate and emphasize, through forensic analysis, the significance of 🦈/human interactions in comparison to the myriad dangers that we face in our daily lives.
 <br>
 [The original dataset](https://www.sharkattackfile.net/spreadsheets/GSAF5.xls) is in .xls Excel file format, loaded into a Jupyter Notebook for analysis in Python.
 
 ### Problem statement
-Shark attack reports seem to be increasing over the past years.
+🦈 attack reports seem to be increasing over the past years.
 
 ### Hypothesis
-An escalation in oceanic activities, such as surfing and swimming, will correlate with an increase in shark attacks along coastal regions of the USA.
+An escalation in oceanic activities, such as surfing and swimming, will correlate with an increase in 🦈 attacks along coastal regions of the USA.
 <br>
 
 ## Understanding the data
@@ -76,14 +76,14 @@ there are columns which appear almost empty or mostly populated by missing or us
 We did data reduction by using methods: isna, dropna, drop, and with threshhold of 21 na values per row.
 <br>
 From the original 6965 rows, the dataset was reduced to 1592 rows over 7 columns:
-- "Date" : The full date of the reported human/shark encounter and injury
-- "Year" : The year of the reported human/shark encounter and injury
+- "Date" : The full date of the reported human/🦈 encounter and injury
+- "Year" : The year of the reported human/🦈 encounter and injury
 - "Type" : The type of the injury
-- "Country" : The country where he reported human/shark encounter took place
-- "State" : State as in part of the country where the reported shark/human report took place,
+- "Country" : The country where he reported human/🦈 encounter took place
+- "State" : State as in part of the country where the reported 🦈/human report took place,
 - "Activity" : The activity in which the injured was engaged when the reported encounter took place,
 - "Sex" : gender of the injured person,
-- "Injury" : nature and description of the outcome of the shark/human encounter,
+- "Injury" : nature and description of the outcome of the 🦈/human encounter,
 <br>
 We've decided towards dropping the remaining columns for they contained too manu null values or values not relevant to our analysis.
 
@@ -98,11 +98,11 @@ We've decided towards dropping the remaining columns for they contained too manu
 - 
 
 ## Conclusion
-Our original hypothesis was that an escalation in oceanic activities, such as surfing and swimming, will correlate with an increase in shark attacks along coastal regions of the USA.
+Our original hypothesis was that an escalation in oceanic activities, such as surfing and swimming, will correlate with an increase in 🦈 attacks along coastal regions of the USA.
 <br>
 The hypothesis is rejected.
 <br>
-An escalation in oceanic activities, such as surfing and swimming, will correlate with an increase in shark attacks along coastal regions of Australia, and not of the USA.
+An escalation in oceanic activities, such as surfing and swimming, will correlate with an increase in 🦈 attacks along coastal regions of Australia, and not of the USA.
 
 ### Issues and challenges
 We won't say anything new if we say that this project was very challenging.
@@ -120,4 +120,4 @@ Hopefully, you'll take our broken spirits into consideration while observing for
 - Don Nacho
 - Simi
 
-### P.S. : No shark was harmed in creating this analysis.
+### P.S. : No 🦈 was harmed in creating this analysis.
