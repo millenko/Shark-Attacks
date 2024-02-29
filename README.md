@@ -3,15 +3,7 @@
 # QUEST | Sharks Attacks
 <details>
   <summary>
-   <h2>Learning Goals</h2>
-  </summary>
 
-  <br>
-  <hr> 
-
-</details>
-
-<details>
   <summary>
    <h2>Prerequisites</h2>
   </summary>
