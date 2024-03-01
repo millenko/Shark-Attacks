@@ -125,5 +125,6 @@ Hopefully, you'll take our broken spirits into consideration while observing for
 - GSAF Field Investigators
 - Don Nacho
 - Simi
+- Pedro (though we're still not sure if that's a real person or AI)
 
 ### P.S. : No 🦈 was harmed in creating this analysis.
