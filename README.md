@@ -98,11 +98,10 @@ We've decided towards dropping the remaining columns for they contained too manu
 - 
 
 ## Conclusion
-Our original hypothesis was that an escalation in oceanic activities, such as surfing and swimming, will correlate with an increase in 🦈 attacks along coastal regions of the USA.
+Our null hypothesis was that an escalation in oceanic activities, such as surfing and swimming, will correlate with an increase in 🦈 attacks along coastal regions of the USA.
 <br>
-The hypothesis is rejected.
+We fail to reject the null hypothesis.
 <br>
-An escalation in oceanic activities, such as surfing and swimming, will correlate with an increase in 🦈 attacks along coastal regions of Australia, and not of the USA.
 
 ### Issues and challenges
 We won't say anything new if we say that this project was very challenging.
