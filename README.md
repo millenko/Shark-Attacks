@@ -34,6 +34,7 @@ We hope to be a contributing factor to decrease in the 🦈-related accidents, f
 - Python is 3.11.5 or higher
 - Numpy
 - Pandas
+- Seaborn
 - Matplotlib
 - RE
 - Pickle
@@ -88,8 +89,17 @@ From the original 6965 rows, the dataset was reduced to 1592 rows over 7 columns
 We've decided towards dropping the remaining columns for they contained too manu null values or values not relevant to our analysis.
 
 ### EDA methods
+The analysis focuses on the trends of swimming and surfing activities in the USA in relation to shark attacks over time.
+<br>
+We utilized Python libraries Seaborn and Matplotlib to explore and visually present present the statistical findings.
+<br>
 
-### REGEX
+#### Statistical Analysis:
+- Calculating metrics such as the Pearson correlation coefficient to quantify the relationship between swimming activities and shark attacks.
+<br>
+
+#### Visualisation:
+- Created visualizations such as bar plot, line plots and scatter plots to illustrate the trends of swimming and surfing activities over the years, as well as their correlation with shark attacks.
 
 ### Under the hood
 - Data structures used: lists, dictionaries, sets
