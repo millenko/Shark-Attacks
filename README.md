@@ -73,7 +73,7 @@ there are columns which appear almost empty or mostly populated by missing or us
 ### Data Description
 We did data reduction by using methods: isna, dropna, drop, and with threshhold of 21 na values per row.
 <br>
-From the original 6965 rows, the dataset was reduced to 1592 rows over 7 columns:
+From the original 6965 rows, the dataset was reduced to 1592 rows over 13 columns:
 - "Date" : The full date of the reported human/🦈 encounter and injury
 - "Year" : The year of the reported human/🦈 encounter and injury
 - "Type" : The type of the injury
