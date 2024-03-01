@@ -36,8 +36,6 @@ We hope to be a contributing factor to decrease in the 🦈-related accidents, f
 - Pandas
 - Seaborn
 - Matplotlib
-- RE
-- Pickle
 
 ## About the dataset
 The dataset used in this analysis is [GSAF Incident Log](https://www.sharkattackfile.net/incidentlog.htm).
