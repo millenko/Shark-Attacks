@@ -32,7 +32,6 @@ We hope to be a contributing factor to decrease in the 🦈-related accidents, f
 ### Required environment
 - Jupyter Notebook
 - Python is 3.11.5 or higher
-- Numpy
 - Pandas
 - Seaborn
 - Matplotlib
